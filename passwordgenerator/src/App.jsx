@@ -1,8 +1,6 @@
 import { useState,useCallback, useEffect ,useRef} from 'react'
 
 
-
-
 function App() {
   const [length, setlengtgh] = useState(8)
   const [numAllowed, setNumAllowed] = useState(false)
